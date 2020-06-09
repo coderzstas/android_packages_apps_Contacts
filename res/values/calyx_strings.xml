@@ -15,4 +15,6 @@
      limitations under the License.
 -->
 <resources>
+    <string name="calling_account_encrypted">Audio and video are private</string>
+    <string name="calling_account_not_encrypted">Audio is not private</string>
 </resources>
