@@ -135,6 +135,7 @@ public class ContactEditorAccountsChangedActivity extends Activity
 
             final Button button = (Button) view.findViewById(R.id.add_account_button);
             button.setText(getString(R.string.add_new_account));
+            button.setTextColor(getResources().getColor(R.color.add_new_account_button));
             button.setOnClickListener(mAddAccountClickListener);
 
             final ListView accountListView = (ListView) view.findViewById(R.id.account_list);

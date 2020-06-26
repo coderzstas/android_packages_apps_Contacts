@@ -224,4 +224,6 @@
 
     <!-- Color of contact name in list. -->
     <color name="contact_list_name_text_color">@color/omni_text2</color>
+
+    <color name="add_new_account_button">#fff</color>
 </resources>
