@@ -137,7 +137,7 @@
     <dimen name="expanding_entry_card_null_title_top_extra_padding">2dp</dimen>
 
     <!-- Height of the separator between entries in an ExpandingEntryCardView and contact editor. -->
-    <dimen name="divider_line_height">1dp</dimen>
+    <dimen name="divider_line_height">0dp</dimen>
 
     <!-- Dimensions for an entry in ExpandingEntryCardView -->
     <dimen name="expanding_entry_card_item_padding_start">20dp</dimen>
