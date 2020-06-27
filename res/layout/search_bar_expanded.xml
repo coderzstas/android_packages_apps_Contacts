@@ -28,7 +28,7 @@
         android:layout_height="@dimen/search_box_icon_size"
         android:layout_marginEnd="@dimen/search_box_navigation_icon_margin"
         android:src="@drawable/quantum_ic_arrow_back_vd_theme_24"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="@color/omni_color5"
         android:contentDescription="@string/action_menu_back_from_search"
         android:tint="@color/textColorIconOverlay" />
 
@@ -56,7 +56,7 @@
         android:src="@drawable/quantum_ic_close_vd_theme_24"
         android:tint="@color/quantum_black_secondary_text"
         android:clickable="true"
-        android:background="?attr/selectableItemBackgroundBorderless"
+        android:background="@color/omni_color5"
         android:contentDescription="@string/description_clear_search" />
 
 </LinearLayout>
