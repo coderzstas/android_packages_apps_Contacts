@@ -197,9 +197,9 @@
     <!-- Use the non-light style so that the up button & icons aren't black. If we use the
          Light style, then it is impossible to tint the homeAsUp icon anything other than black -->
     <style name="ContactsActionBarStyle" parent="@android:style/Widget.Material.ActionBar">
-        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:background">@color/omni_color5</item>
         <item name="android:titleTextStyle">@style/ContactsActionBarTitleText</item>
-        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/omni_color5</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
     </style>
@@ -207,12 +207,12 @@
     <style name="ContactsActionBarStyleAppCompat"
         parent="@style/Widget.AppCompat.ActionBar.Solid">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
-        <item name="android:background">@color/actionbar_background_color</item>
-        <item name="background">@color/actionbar_background_color</item>
+        <item name="android:background">@color/omni_color5</item>
+        <item name="background">@color/omni_color5</item>
         <item name="android:titleTextStyle">@style/ContactsActionBarTitleTextAppCompat</item>
         <item name="titleTextStyle">@style/ContactsActionBarTitleTextAppCompat</item>
-        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
-        <item name="backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/omni_color5</item>
+        <item name="backgroundStacked">@color/omni_color5</item>
         <!-- Empty icon -->
         <item name="android:icon">@android:color/transparent</item>
         <item name="icon">@android:color/transparent</item>
