@@ -30,7 +30,7 @@
         android:src="@drawable/quantum_ic_arrow_back_vd_theme_24"
         android:background="?attr/selectableItemBackgroundBorderless"
         android:contentDescription="@string/action_menu_back_from_search"
-        android:tint="@color/actionbar_background_color" />
+        android:tint="@color/textColorIconOverlay" />
 
     <android.widget.AutoCompleteTextView
         android:id="@+id/search_view"
@@ -43,7 +43,7 @@
         android:textColor="@color/searchbox_text_color"
         android:textColorHint="@color/searchbox_hint_text_color"
         android:textCursorDrawable="@drawable/searchedittext_custom_cursor"
-        android:background="@null"
+        android:background="@color/omni_color5"
         android:inputType="textFilter"
         android:singleLine="true"
         android:imeOptions="flagNoExtractUi" />
